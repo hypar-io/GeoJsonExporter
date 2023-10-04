@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoJSONExporter", "src\GeoJSONExporter.csproj", "{62C51B91-D25C-4AE7-9118-81A495D51137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoJSONExporter.Dependencies", "dependencies\GeoJSONExporter.Dependencies.csproj", "{3AF8E7DD-21BC-4205-8D73-6E3A3EF007C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoJSONExporter.Tests", "test\GeoJSONExporter.Tests.csproj", "{3582765E-334B-4904-9600-58D1CFCC5CAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62C51B91-D25C-4AE7-9118-81A495D51137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C51B91-D25C-4AE7-9118-81A495D51137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C51B91-D25C-4AE7-9118-81A495D51137}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{62C51B91-D25C-4AE7-9118-81A495D51137}.Debug|x64.Build.0 = Debug|Any CPU
+		{62C51B91-D25C-4AE7-9118-81A495D51137}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{62C51B91-D25C-4AE7-9118-81A495D51137}.Debug|x86.Build.0 = Debug|Any CPU
+		{62C51B91-D25C-4AE7-9118-81A495D51137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C51B91-D25C-4AE7-9118-81A495D51137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C51B91-D25C-4AE7-9118-81A495D51137}.Release|x64.ActiveCfg = Release|Any CPU
+		{62C51B91-D25C-4AE7-9118-81A495D51137}.Release|x64.Build.0 = Release|Any CPU
+		{62C51B91-D25C-4AE7-9118-81A495D51137}.Release|x86.ActiveCfg = Release|Any CPU
+		{62C51B91-D25C-4AE7-9118-81A495D51137}.Release|x86.Build.0 = Release|Any CPU
+		{3AF8E7DD-21BC-4205-8D73-6E3A3EF007C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF8E7DD-21BC-4205-8D73-6E3A3EF007C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF8E7DD-21BC-4205-8D73-6E3A3EF007C5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3AF8E7DD-21BC-4205-8D73-6E3A3EF007C5}.Debug|x64.Build.0 = Debug|Any CPU
+		{3AF8E7DD-21BC-4205-8D73-6E3A3EF007C5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3AF8E7DD-21BC-4205-8D73-6E3A3EF007C5}.Debug|x86.Build.0 = Debug|Any CPU
+		{3AF8E7DD-21BC-4205-8D73-6E3A3EF007C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF8E7DD-21BC-4205-8D73-6E3A3EF007C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF8E7DD-21BC-4205-8D73-6E3A3EF007C5}.Release|x64.ActiveCfg = Release|Any CPU
+		{3AF8E7DD-21BC-4205-8D73-6E3A3EF007C5}.Release|x64.Build.0 = Release|Any CPU
+		{3AF8E7DD-21BC-4205-8D73-6E3A3EF007C5}.Release|x86.ActiveCfg = Release|Any CPU
+		{3AF8E7DD-21BC-4205-8D73-6E3A3EF007C5}.Release|x86.Build.0 = Release|Any CPU
+		{3582765E-334B-4904-9600-58D1CFCC5CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3582765E-334B-4904-9600-58D1CFCC5CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3582765E-334B-4904-9600-58D1CFCC5CAE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3582765E-334B-4904-9600-58D1CFCC5CAE}.Debug|x64.Build.0 = Debug|Any CPU
+		{3582765E-334B-4904-9600-58D1CFCC5CAE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3582765E-334B-4904-9600-58D1CFCC5CAE}.Debug|x86.Build.0 = Debug|Any CPU
+		{3582765E-334B-4904-9600-58D1CFCC5CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3582765E-334B-4904-9600-58D1CFCC5CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3582765E-334B-4904-9600-58D1CFCC5CAE}.Release|x64.ActiveCfg = Release|Any CPU
+		{3582765E-334B-4904-9600-58D1CFCC5CAE}.Release|x64.Build.0 = Release|Any CPU
+		{3582765E-334B-4904-9600-58D1CFCC5CAE}.Release|x86.ActiveCfg = Release|Any CPU
+		{3582765E-334B-4904-9600-58D1CFCC5CAE}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://prod-api.hypar.io/schemas/ExporterFunction",
+  "id": "f1b60a4b-04da-44bd-adbb-e3654ea74c54",
+  "name": "GeoJSON Exporter",
+  "description": "Export GeoJSON from Space Planning Zones",
+  "language": "C#",
+  "model_dependencies": [
+    {
+      "name": "Space Planning Zones"
+    },
+    {
+      "name": "location"
+    }
+  ],
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "Download": {
+        "description": "Download a GeoJSON of the spaces in the model.",
+        "$ref": "https://prod-api.hypar.io/schemas/FileDestination",
+        "$hyparFileExtension": "geojson"
+      }
+    }
+  },
+  "element_types": [
+    "http://prod-api.hypar.io/schemas/SpaceBoundary",
+    "http://prod-api.hypar.io/schemas/Origin"
+  ],
+  "repository_url": "https://github.com/hypar-io/function",
+  "last_updated": "0001-01-01T00:00:00",
+  "cli_version": "1.2.0-alpha.0"
+}
